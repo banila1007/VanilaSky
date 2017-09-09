@@ -6,11 +6,22 @@
     android:layout_height="wrap_content"
     android:background="@android:color/darker_gray">
 
+
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpaper"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/logo"/>
+</LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,8 +33,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|bottom"
             android:layout_marginBottom="20dp"
-            android:layout_marginTop="500dp"
+            android:layout_marginTop="520dp"
             app:delimiterSize="8dp"
             app:itemSize="8dp" />
     </LinearLayout>
+
 </FrameLayout>
