@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
     {
         @Override
         public int getCount() {
-            return 4;
+            return 5;
         }
 
         @SuppressLint("SetTextI18n")
